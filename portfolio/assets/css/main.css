@@ -1135,7 +1135,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/arizona-img.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1331,6 +1331,7 @@ input, select, textarea {
 
 				#header nav ul li:first-child {
 					border-left: 0;
+					display: none;
 				}
 
 				#header nav ul li a {
@@ -1358,14 +1359,14 @@ input, select, textarea {
 			display: block;
 			position: absolute;
 			top: 0;
-			left: calc(50% - 1px);
+			/* left: calc(50% - 1px); */
 			width: 1px;
 			height: 100%;
 			background: #ffffff;
 		}
 
 		#header nav.use-middle ul li.is-middle {
-			border-left: 0;
+			/* border-left: 0; */
 		}
 
 		body.is-article-visible #header {
